@@ -14,7 +14,7 @@ const alertChannels = [smsChannel, emailChannel]
 **/
 
 export const websiteGroup = new CheckGroup('website-check-group-1', {
-  name: 'Website Group',
+  name: 'Danube website checks',
   activated: true,
   muted: false,
   runtimeId: '2024.02',
