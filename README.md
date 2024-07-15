@@ -1,11 +1,8 @@
 # Checkly Monitoring-as-code: Advanced Project with Traces
 
-This example project shows how you can use the Checkly CLI in a monitoring as code (MaC) workflow. We are using the
-https://checklyhq.com website as a monitoring target.
+This example project uses the Checkly CLI in a monitoring as code (MaC) workflow.
 
-1. Write API Checks and Playwright-powered Browser Checks.
-2. Add Alert Channels, and dry-run your Checks on 20+ global locations.
-3. Test -> Deploy: now you have your app monitored around the clock. All from your code base.
+Tests against an Vercel app that generates Traces and runs GitHub Actions to run checkly automatically.
 
 ```
 npm create checkly -- --template advanced-project
