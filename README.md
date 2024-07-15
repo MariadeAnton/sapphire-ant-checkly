@@ -1,4 +1,4 @@
-# Checkly Monitoring-as-code: Advanced Project
+# Checkly Monitoring-as-code: Advanced Project with Traces
 
 This example project shows how you can use the Checkly CLI in a monitoring as code (MaC) workflow. We are using the
 https://checklyhq.com website as a monitoring target.
