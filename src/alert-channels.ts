@@ -1,28 +1,25 @@
-// import { URL } from 'node:url'
-// import {
-//   SmsAlertChannel,
-//   EmailAlertChannel,
-//   SlackAlertChannel,
-//   WebhookAlertChannel
-// } from 'checkly/constructs'
+import { URL } from 'node:url'
+import {
+  EmailAlertChannel,
+} from 'checkly/constructs'
 
-// const sendDefaults = {
-//   sendFailure: true,
-//   sendRecovery: true,
-//   sendDegraded: false,
-//   sslExpiry: true,
-//   sslExpiryThreshold: 30
-// }
+const sendDefaults = {
+  sendFailure: true,
+  sendRecovery: true,
+  sendDegraded: false,
+  sslExpiry: true,
+  sslExpiryThreshold: 30
+}
 
 // // export const smsChannel = new SmsAlertChannel('sms-channel-1', {
 //   phoneNumber: '0031061234567890',
 //   ...sendDefaults
 // })
 
-// export const emailChannel = new EmailAlertChannel('email-channel-1', {
-//   address: 'alerts@acme.com',
-//   ...sendDefaults
-// })
+export const emailChannel = new EmailAlertChannel('email-channel-1', {
+address: 'maria@checklyhq.com',
+...sendDefaults
+})
 
 // export const slackChannel = new SlackAlertChannel('slack-channel-1', {
 //   url: new URL('https://hooks.slack.com/services/bu'),
